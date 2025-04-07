@@ -1,0 +1,100 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+  border: "5px solid blue";
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+  border: "5px solid blue";
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: "5px solid blue";
+}
+
+.autoplay-progress {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--swiper-theme-color);
+}
+
+.autoplay-progress svg {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  stroke-width: 4px;
+  stroke: #f56a02;
+  fill: none;
+  stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
+  stroke-dasharray: 125.6;
+  transform: rotate(-90deg);
+}
+
+.autoplay-progress span {
+  color: #f56a02;
+}
+
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 16px;
+  top: 10px;
+  z-index: 10;
+  background: transparent;
+}
+
+.swiper-slide {
+  padding-bottom: 0px;
+}
+
+.swiper-pagination-bullet {
+  margin: 0 4px;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  opacity: 1;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #f56a02;
+  width: 16px;
+  height: 16px;
+}
+
+.button-swiper {
+  background: transparent;
+}
+
+.swiper-pagination {
+  top: unset !important;
+  left: unset !important;
+  bottom: unset !important;
+  right: unset !important;
+  width: unset !important;
+}

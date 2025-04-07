@@ -1,0 +1,51 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# React Native
+ios/Pods/
+android/.gradle/
+android/app/build/
+android/.idea/
+android/local.properties
+
+# Build artifacts
+*.log
+*.tmp
+*.swp
+*.swo
+*.swn
+*.DS_Store
+
+# Debug files
+.idea/
+.vscode/
+*.xcworkspace/
+*.xcodeproj/
+*.hmap
+*.lock
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Metro bundler cache
+.expo/
+.expo-shared/
+babel-loader-cache/
+metro-cache/
+
+# NPM logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Misc
+__tests__/coverage/
+coverage/
+*.bak
+*.orig
+*.pnp.cjs
+.pnp

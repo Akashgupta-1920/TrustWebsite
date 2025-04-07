@@ -1,0 +1,16 @@
+.epilogue-bold {
+  font-family: "Epilogue", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+
+
+
+@media (max-width: 48em) { /* 48em is approximately 768px, adjust as needed */
+  .responsive-span {
+    display: none;
+  }
+}
